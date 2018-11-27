@@ -1,4 +1,4 @@
-FROM ceeac/boomerang-build-base:latest
+FROM ceeac/boomerang-build-env:base
 
 RUN apt-get -y update && \
     apt-get install -y --no-install-recommends \
