@@ -1,0 +1,10 @@
+os: linux
+dist: trusty
+sudo: required
+
+addons:
+  apt:
+    update: false
+
+script:
+  - ./build-docker-images.sh
