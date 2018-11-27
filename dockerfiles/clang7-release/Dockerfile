@@ -6,4 +6,3 @@ RUN apt-get -y update && \
 
 ENV CC  /usr/bin/clang-7
 ENV CXX /usr/bin/clang++-7
-

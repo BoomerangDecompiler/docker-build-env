@@ -15,7 +15,5 @@ RUN apt-get -y update && \
     bison \
     flex
 
-
 COPY . boomerang
 RUN chown -R boomerang:boomerang boomerang
-

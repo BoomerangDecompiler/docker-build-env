@@ -6,4 +6,3 @@ RUN apt-get -y update && \
 
 ENV CC  /usr/bin/gcc-7
 ENV CXX /usr/bin/g++-7
-
