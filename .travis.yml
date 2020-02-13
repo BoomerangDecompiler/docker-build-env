@@ -1,6 +1,5 @@
 os: linux
-dist: trusty
-sudo: required
+dist: bionic
 
 addons:
   apt:
